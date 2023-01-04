@@ -16,7 +16,7 @@ const TaskForm = () => {
                     <FontAwesome5 name="check" size={20} color={colors.gray700} />
                 </Pressable>
             </View>
-            <Text style={styles.label}>Title</Text>
+            <Text style={styles.label}>Task Name</Text>
             <TextInput style={styles.textField} />
             <Text style={styles.label}>Description</Text>
             <TextInput

@@ -24,7 +24,7 @@ export default Appointment;
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        backgroundColor: colors.gray400,
+        backgroundColor: colors.white100,
         paddingVertical: 16,
         paddingHorizontal: 24,
         borderRadius: 8,
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         marginBottom: 16,
     },
     pressed: {
-        backgroundColor: colors.gray700,
+        backgroundColor: colors.white200,
     },
     title: {
         fontWeight: '700',

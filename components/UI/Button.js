@@ -9,13 +9,6 @@ const createButton = (title, onPress, buttonStyle, textStyle) => {
     );
 }
 
-const createPhase = (title, onPress, phaseStyle, textStyle) => {
-    return (
-        <Pressable style={phaseStyle} onPress={onPress}>
-            <Text style={textStyle}>{title}</Text>
-        </Pressable>
-    );
-};
 
 export const Button = ({ title, onPress }) => {
     return createButton(title, onPress, styles.button, styles.title);
@@ -25,13 +18,6 @@ export const SmallButton = ({ title, onPress }) => {
     return createButton(title, onPress, styles.smallButton, styles.smallTitle);
 };
 
-export const Phase = ({ title, onPress }) => {
-    return createPhase(title, onPress, styles.button, styles.title)
-}
-
-export const SmallPhase = ({ title, onPress }) => {
-    return createPhase(title, onPress, styles.smallButton, styles.smallTitle)
-}
 
 const styles = StyleSheet.create({
     button: {
